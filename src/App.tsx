@@ -1,11 +1,14 @@
-
+import Header from "./Components/Header"
+import Hero from "./Components/Hero"
 
 function App() {
 
   return (
-    <>
-      <h1 className="text-center">Edu.Insight</h1>
-    </>
+    <div className="w-full min-h-full px-4 sm:px-12 ">
+      <Header />
+      <Hero />
+
+    </ div>
   )
 }
 
