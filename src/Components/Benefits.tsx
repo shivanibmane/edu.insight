@@ -1,19 +1,5 @@
-
+import { benefits } from "./constant"
 const Benefits = () => {
-
-  const benefits = [{ title: "Affordable Tuition Fees", desc: "Get a quality medical education at a lower cost compared to private universities in India." },
-  { title: " Globally Recognized Degrees ", desc: " MBBS degrees from top universities abroad are recognized by WHO, NMC (MCI), and other global medical bodies." },
-  { title: "No Entrance Exam Required", desc: "Most universities don’t require NEET for admission, except for eligibility to practice in India." },
-  { title: "World-Class Infrastructure", desc: "Study in modern medical universities equipped with advanced labs and facilities." },
-  { title: "English-Medium Curriculum ", desc: "No language barrier, as most universities offer MBBS courses in English." },
-  { title: "International Exposure", desc: "Gain global medical experience by interacting with students from different countries." },
-  { title: "Better Career Opportunities ", desc: "High chances of securing jobs or post-graduate medical courses in countries like the Russia, Uzbekistan etc." }, {
-    title: "Scholarship Opportunities",
-    desc: "Financial support for deserving and meritorious students."
-  }]
-
-
-
 
   return (
 
