@@ -4,7 +4,7 @@ import banner from "../assets/banner.png"
 const Hero = () => {
   return (
     <>
-      <div className="flex items-center min-h-[500px]   bg-transparent md:bg-cover bg-opacity-50 rounded-md sm:mx-4" style={{ backgroundImage: `url(${bg_image})` }}>
+      <div className="flex items-center min-h-[500px] md:bg-cover rounded-md sm:mx-4" style={{ backgroundImage: `url(${bg_image})` }}>
         <div className="relative isolate px-6 lg:px-8">
           <div className="mx-auto  w-full max-w-2xl py-10">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
@@ -31,7 +31,6 @@ const Hero = () => {
           <img src={banner} alt="Banner-Img" className="hidden sm:max-w-[300px]  md:max-w-[500px] md:block" />
         </div>
       </div>
-
     </>
   )
 }

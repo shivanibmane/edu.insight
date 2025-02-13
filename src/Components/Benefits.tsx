@@ -23,9 +23,9 @@ const Benefits = () => {
         <p className="hidden mt-6 px-10 text-gray-500 text-center md:block">
           Pursuing MBBS abroad opens doors to quality education, global exposure, and a successful medical career. From affordable tuition to world-class infrastructure, discover the top reasons why thousands of students choose to study medicine overseas.
         </p>
-        <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+        <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 md:grid-cols-2 sm:gap-y-7 lg:gap-x-8 ">
           {benefits.map((benefit) => (
-            <div key={benefit.title} className="border-t border-gray-200 pt-4">
+            <div key={benefit.title} className="border border-gray-200 p-7 rounded-lg shadow-lg hover:scale-105 transition duration-700 ease-in-out ">
               <dt className="font-medium text-gray-900">{benefit.title}</dt>
               <dd className="mt-2 text-sm text-gray-500">{benefit.desc}</dd>
             </div>
