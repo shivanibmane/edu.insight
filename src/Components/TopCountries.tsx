@@ -6,7 +6,7 @@ const TopCountries = () => {
         className="flex flex-col items-center gap-4 py-5 text-gray-800 px-7 "
       >
         <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center mt-10">Top Countries</h1>
-        <p className=" text-gray-500">Study in top countries known for quality medical education and global recognition. </p>
+        <p className=" text-gray-500 text-center">Study in top countries known for quality medical education and global recognition. </p>
         <div className="flex sm:justify-center gap-7 pt-5 w-full items-center overflow-scroll">
           {topCountries?.map((country) => (
             <div

@@ -1,3 +1,4 @@
+import Admission from "./Components/Admission"
 import Benefits from "./Components/Benefits"
 import Header from "./Components/Header"
 import Hero from "./Components/Hero"
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Benefits />
       <TopCountries />
+      <Admission />
     </ div>
   )
 }

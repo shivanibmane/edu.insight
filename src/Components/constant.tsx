@@ -20,7 +20,7 @@ export const topCountries = [{
   name: "Kazakhstan",
   img_url: kazakhstan_univ
 }, {
-  name: "kyrgyzstan",
+  name: "Kyrgyzstan",
   img_url: kyrgyzstan_univ
 }, {
   name: "Uzbekistan",
