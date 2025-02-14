@@ -3,7 +3,7 @@ const Benefits = () => {
 
   return (
 
-    <div className="bg-white my-10 ">
+    <div className="bg-white my-10 " id="keybenefits">
       <div className="px-10">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center mt-20">Key Benefits</h2>
         <p className="hidden mt-6 px-10 text-gray-500 text-center md:block">
