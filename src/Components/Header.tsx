@@ -2,7 +2,7 @@ import { Link } from "react-scroll"
 import logo from "../assets/Edu.insight-logo.png"
 const Header = () => {
   return (
-    <div className="flex  justify-between items-center mb-4 shadow-xl p-3 ">
+    <div className="flex  justify-between items-center mb-4 shadow-xl py-3 px-6 fixed top-0 left-0 w-full bg-white z-50 ">
       <img
         alt="Logo"
         src={logo}
@@ -24,14 +24,11 @@ const Header = () => {
           </li>
           <li>
             <Link
-
-
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
               to="keybenefits"
-
             >
               Key Benefits
             </Link>
