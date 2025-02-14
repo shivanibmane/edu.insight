@@ -1,7 +1,7 @@
 
 const Admission = () => {
   return (
-    <div className="p-3 sm:p-20">
+    <div className="p-3 sm:p-20" id="admission">
       <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center my-10 " >Addmission Process and Eligibility</h1>
       <div className="flex flex-col lg:flex-row">
         <div>
