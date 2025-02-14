@@ -1,5 +1,6 @@
 import bg_image from "../assets/bg_img.jpg"
 import banner from "../assets/banner.png"
+import { Link } from "react-scroll"
 
 const Hero = () => {
   return (
@@ -17,12 +18,15 @@ const Hero = () => {
                 Unlock global opportunities with world-class MBBS education abroad. Gain top-quality medical training, hands-on experience, and a globally recognized degree. Start your journey today! 🩺✨
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
-                <button
-
-                  className="rounded-md bg-white dark:bg-gray-900 hover:bg-gray-800 duration-75 delay-75 ease-in-out text-white px-3.5 py-2.5 text-sm font-semibold shadow-xs "
-                >
+                <Link
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  to="contact"
+                  className="rounded-md bg-white dark:bg-gray-900 hover:bg-gray-800 duration-75 delay-75 ease-in-out scroll-smooth text-white px-3.5 py-2.5 text-sm font-semibold shadow-xs ">
                   Get started
-                </button>
+                </Link>
               </div>
             </div>
           </div>

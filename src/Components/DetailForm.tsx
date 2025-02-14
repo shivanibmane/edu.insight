@@ -9,20 +9,15 @@ const DetailForm = () => {
   const [description, setDescription] = useState("")
 
 
-  const handleSubmit = async (e: any) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault()
-    try {
-      const student: any = { firstname: firstname, lastname: lastname, email: email, phone: phone, country: country, description: description }
-      await localStorage.setItem('student', JSON.stringify(student))
-    }
-    catch (e) {
-      console.log(e)
-    }
+    const student: any = { firstname: firstname, lastname: lastname, email: email, phone: phone, country: country, description: description }
+    localStorage.setItem('student', JSON.stringify(student))
   }
 
   return (
     <>
-      <section className="bg-white dark:bg-gray-900 rounded-2xl my-3">
+      <section id="contact" className="bg-white dark:bg-gray-900 rounded-2xl my-3 !scroll-smooth">
         <h1 className="text-3xl font-bold tracking-tight sm:text-4xl text-center text-white pt-8 ">Contact Us</h1>
         <div className="py-8 px-4 mx-auto max-w-2xl lg:py-16">
           <form action="#">

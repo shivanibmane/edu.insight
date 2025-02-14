@@ -1,6 +1,7 @@
 import Admission from "./Components/Admission"
 import Benefits from "./Components/Benefits"
 import DetailForm from "./Components/DetailForm"
+import Footer from "./Components/Footer"
 import Header from "./Components/Header"
 import Hero from "./Components/Hero"
 import TopCountries from "./Components/TopCountries"
@@ -15,6 +16,7 @@ function App() {
       <TopCountries />
       <Admission />
       <DetailForm />
+      <Footer />
     </ div>
   )
 }
