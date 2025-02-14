@@ -17,12 +17,12 @@ const Hero = () => {
                 Unlock global opportunities with world-class MBBS education abroad. Gain top-quality medical training, hands-on experience, and a globally recognized degree. Start your journey today! 🩺✨
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
-                <a
-                  href=""
-                  className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                <button
+
+                  className="rounded-md bg-white dark:bg-gray-900 hover:bg-gray-800 duration-75 delay-75 ease-in-out text-white px-3.5 py-2.5 text-sm font-semibold shadow-xs "
                 >
                   Get started
-                </a>
+                </button>
               </div>
             </div>
           </div>
